@@ -1,0 +1,38 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": " This is my landing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazariy-Dev/my-landing-page.git"
+  },
+  "author": "Nazariy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazariy-Dev/my-landing-page/issues"
+  },
+  "homepage": "https://github.com/Nazariy-Dev/my-landing-page#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rimraf": "^1.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp.spritesmith": "^6.13.0",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "georgia-bold";
+    src: url("../fonts/Georgia-Bold.woff") format(woff),
+     url("../fonts/Georgia-Bold.woff2") format(woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "heletica-neue-bold";
+    src: url("../fonts/HelveticaNeueBoldCondensed.woff") format(woff),
+     url("../fonts/HelveticaNeueBoldCondensed.woff2") format(woff2);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "heletica-neue-light";
+    src: url("../fonts/HelveticaNeueCyr-Light.woff") format(woff),
+     url("../fonts/HelveticaNeueCyr-Light.woff2") format(woff2);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "heletica-neue-regular";
+    src: url("../fonts/HelveticaNeueCyr-Medium.woff") format(woff),
+     url("../fonts/HelveticaNeueCyr-Medium.woff2") format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}

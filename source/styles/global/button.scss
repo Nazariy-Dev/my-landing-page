@@ -1,0 +1,32 @@
+.button{
+    display: inline-block; //Строчные елементы на широку, высоту, падинги, марджины не реагируют - ссылка - строчный елемент
+    border-radius: 3px;
+    padding: 12px 22px;
+    text-decoration: none;
+    color: #fff;
+
+
+    &-red{
+        background: #de2b24;
+        transition: .3s;
+
+        &:hover{
+            background: lighten(#de2b24, 7%);
+        }
+    }
+
+    &-yellow{
+        background: #f8cd53;
+        transition: .3s;
+
+        &:hover{
+            background: lighten(#f8cd53, 7%);
+        }
+    }
+
+    &-text-uppercase{
+        text-transform: uppercase;
+    }
+
+   
+}
