@@ -45,13 +45,14 @@ gulp.task('styles:compile', function (){
 
 // ------------------ Sprite ------------------
 gulp.task('sprite', function (cb) {
-    let spriteData = gulp.src('images/*.png').pipe(spritesmith({
+    let spriteData = gulp.src('source/images/icons/*.png').pipe(spritesmith({
         imgName: 'sprite.png',
+        imgPath: "../images/sprite.png",
         cssName: 'sprite.scss'
     }));
 
     spriteData.img.pipe(gulp.dest("build/images/"))
-    spriteData.css.pipe(gulp.dest("build/styles/global"))
+    spriteData.css.pipe(gulp.dest("source/styles/global/"))
     cb()
 });
 

@@ -1,0 +1,13 @@
+.icon{
+    margin: auto auto 23px auto;
+}
+
+.icon-like{
+    @include sprite($about-like);
+}
+.icon-book{
+    @include sprite($about-book);
+}
+.icon-message{
+    @include sprite($about-comment);
+}
