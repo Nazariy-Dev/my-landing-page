@@ -1,10 +1,10 @@
-section.form-serction
+section.form-section
     .container 
-        .title.title-with-bottom-line
+        .title
             h2.title__header Get Your Free Facebook Analysis Now Enter your details below
-            .title__text  nter your details below
+            .title__text  Enter your details below
         
-        .btn-down: a.arrow-down: fa.fa-angle-down
+        .btn-down: a.arrow-down: fa.fa.fa-angle-down
 
         .form-container
             form(action="#" method="post").form
@@ -12,7 +12,9 @@ section.form-serction
                 .form__text.
                     Sit down with our experts to receive a free customized marketing plan for your business + 
                     Learn How To Use Google and Facebook to get 5000% ROI or more
-                +form-input("Your Name")
-                +form-input("Contacts Number")
-                +form-input("Contacts name")
-                button(type="submit").button.button-red Submit Now
+
+                .form__fields
+                    +form-input("Your Name")
+                    +form-input("Contacts Number")
+                    +form-input("Contacts name")
+                button(type="submit").button.button-text-uppercase.button-red Submit Now
