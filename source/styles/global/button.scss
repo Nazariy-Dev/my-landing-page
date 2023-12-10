@@ -7,11 +7,11 @@
 
 
     &-red{
-        background: #de2b24;
+        background: $acent-color;
         transition: .3s;
 
         &:hover{
-            background: lighten(#de2b24, 7%);
+            background: lighten($acent-color, 7%);
         }
     }
 

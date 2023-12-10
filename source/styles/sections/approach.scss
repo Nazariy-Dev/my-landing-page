@@ -12,7 +12,7 @@
         margin-bottom: 40px;
         border-radius: 5px;
         box-shadow: -1px -1px 10px 1px rgba(214, 214, 214, 1);
-        color: #424242;
+        color: $text-color;
         background-color: #fff;
 
         &:nth-child(2n){
@@ -62,7 +62,7 @@
         border: 2px solid #fff;
         text-align: center;
         font-size: 1.25rem;
-        background-color: #de2b24;
+        background-color: $acent-color;
         color: #fff;
 
             &::before{

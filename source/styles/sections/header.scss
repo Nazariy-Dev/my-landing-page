@@ -34,11 +34,11 @@
     display: inline-block;
     vertical-align: middle;
     padding: 10px 8px 8px;
-    color: #424242;
+    color: $text-color;
     transition: .3s;
 
     &:hover {
-        color: lighten(#424242, 20%);
+        color: lighten($text-color, 20%);
     }
 
     &:first-child {
@@ -80,7 +80,7 @@
 
     &__text {
         margin-left: 8px;
-        color: #424242;
+        color: $text-color;
     }
     &__header {
         font-family: heletica-neue-bold;

@@ -13,12 +13,12 @@
         font-family: $ff-main-bold;
         text-decoration: none;
         text-transform: capitalize;
-        color: #424242;
+        color: $text-color;
         transition: .3s;
 
         &-active,
         &:hover {
-            color: #de2b24;
+            color: $acent-color;
             ;
         }
 
@@ -31,7 +31,7 @@
                 height: 5px;
                 margin-left: 15px;
                 border-radius: 50%;
-                background: #424242;
+                background: $text-color;
             }
         }
     }
