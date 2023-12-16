@@ -20,16 +20,16 @@
 
     me.isValid = function () {
         var requiredFields = document.querySelectorAll('[data-valid="required"]');
-        var emailValue = Business.validation.isEmail(document.querySelector('[data-email]').value)
-        var numberValue = Business.validation.isNumber(document.querySelector('[data-number]').value)
+        var emailValue = document.querySelector('[data-email]').value
+        var numberValue = document.querySelector('[data-number]').value
 
         if(!me.isAllCompleted(requiredFields)){
             console.log("Fill all fields")
             return false
-        } else if(!emailValue){
+        } else if(!Business.validation.isEmail(emailValue)){
             console.log("Not valid email")
             return false
-        } else if(!numberValue){
+        } else if(!Business.validation.isNumber(numberValue)){
             console.log("Not valid munber")
             return false
         }
