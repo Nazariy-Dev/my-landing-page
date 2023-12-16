@@ -77,12 +77,14 @@ gulp.task('copy:images', function() {
         .pipe(gulp.dest("build/images"))
 });
 
-// ------------------ Copy------------------
+// ------------------ Copy ------------------
 gulp.task("copy", gulp.parallel('copy:fonts', 'copy:images'));
 
 // ------------------ js ------------------
 gulp.task('js', function () {
     return gulp.src([
+        'source/js/init.js',
+        'source/js/validation.js',
         'source/js/form.js',
         'source/js/main.js'
     ])
