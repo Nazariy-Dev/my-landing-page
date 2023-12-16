@@ -3,9 +3,14 @@
     color: #fff;
     background-color: #1287bf;
 
+    @media (max-width: 810px) {
+        padding: 50px 0 55px 0;
+    }
+    
+
     .title{
         margin-bottom: 12px;
-        
+        color: #fff;
         &__header{
             font-size: 2.25rem;
         }
@@ -44,6 +49,12 @@
     text-align: center;
     background-color: #fff; 
 
+    @media (max-width: 810px) {
+        padding: 25px;
+        width: 90%;
+    }
+    
+
     &-container{
         padding-top: 30px;
     }
@@ -79,7 +90,7 @@
     }
 
     &__text{
-        margin-bottom: 33px;
+        margin-bottom: 27px;
         font-size: 0.9375rem;
         line-height: 1.5;
     }

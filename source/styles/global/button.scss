@@ -1,7 +1,7 @@
 .button{
     display: inline-block; //Строчные елементы на широку, высоту, падинги, марджины не реагируют - ссылка - строчный елемент
     border-radius: 3px;
-    padding: 12px 22px;
+    padding: 10px 30px 7px 25px; 
     text-decoration: none;
     color: #fff;
 
@@ -27,6 +27,4 @@
     &-text-uppercase{
         text-transform: uppercase;
     }
-
-   
 }

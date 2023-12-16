@@ -10,16 +10,26 @@
     // .header__bottom
 
     &__bottom {
-        padding: 25px 0;
+        padding: 35px 0;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+        }
     }
 
     // .header__button
 
-    &__button {}
+    &__button {
+        @media (max-width: 1080px) {
+            margin-right: 15px;
+        }
+
+        padding: 10px 19px 7px 22px;
+    }
 }
 
 .container {}
@@ -75,21 +85,37 @@
 
 .logo {
     display: flex;
+    align-items: center;
 
-    &__picture {}
+    @media (max-width: 1080px) {
+        margin-left: 15px;
+    }
+
+    @media (max-width: 1000px) {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    &__picture {
+        height: 51px;
+    }
 
     &__text {
         margin-left: 8px;
         color: $text-color;
     }
+
     &__header {
         font-family: heletica-neue-bold;
         font-size: 2.3125rem;
-
+        letter-spacing: 3.7px;
+        line-height: 1.1;
 
     }
 
-    &__subheader{
-        font-family: heletica-neue-regular
+    &__subheader {
+        font-family: heletica-neue-regular;
+        letter-spacing: -1px;
+        font-size: 1.1rem;
     }
 }
